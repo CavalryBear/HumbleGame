@@ -1,10 +1,10 @@
 fileFormatVersion: 2
 guid: 8b80f5026bc72429ea1eaf23baa64693
-timeCreated: 1437232991
+timeCreated: 1437253462
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Warlord_Placeholder
+    21300000: Lootlord_Placeholder
     21300002: Minion_Placeholder
     21300004: Peasant_Placeholder
     21300006: Guard_Placeholder
@@ -53,7 +53,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Warlord_Placeholder
+    - name: Lootlord_Placeholder
       rect:
         serializedVersion: 2
         x: 23

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AdjustSortingLayerOrder.cs" />
+     <Compile Include="Assets\Scripts\LootLordController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Volumes/Additional/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

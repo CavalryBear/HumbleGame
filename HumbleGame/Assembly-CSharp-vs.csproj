@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AdjustSortingLayerOrder.cs" />
      <Compile Include="Assets\Scripts\LootLordController.cs" />
+     <Compile Include="Assets\Scripts\MinionMovement.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>d:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

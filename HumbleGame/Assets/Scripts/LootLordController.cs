@@ -16,6 +16,7 @@ public class LootLordController : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
+<<<<<<< Updated upstream
 		float moveInput = Input.GetAxis("Horizontal");
 
 		_rigidBody.velocity = new Vector2(moveInput * maxSpeed, _rigidBody.velocity.y);
@@ -28,10 +29,18 @@ public class LootLordController : MonoBehaviour {
 		}
 
 		if (moveInput > 0 && !_facingRight) {
+=======
+		float moveInputHorizontal = Input.GetAxis("Horizontal");
+		
+		_rigidBody.velocity = new Vector2(moveInputHorizontal * maxSpeed, Input.GetAxis("Vertical") * maxSpeed);
+		
+		if (moveInputHorizontal > 0 && !_facingRight) {
+>>>>>>> Stashed changes
 			flip();
-		} else if (moveInput < 0 && _facingRight) {
+		} else if (moveInputHorizontal < 0 && _facingRight) {
 			flip();
 		}
+
 	}
 
 	 void OnCollisionEnter2D(Collision2D col){

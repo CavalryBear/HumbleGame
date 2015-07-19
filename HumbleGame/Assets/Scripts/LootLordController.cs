@@ -4,9 +4,11 @@ using System.Collections;
 [RequireComponent(typeof(Rigidbody2D))]
 public class LootLordController : MonoBehaviour {
 	public float maxSpeed = 10f;
+	public float jump = 2f;
 
 	private bool _facingRight = true;
 	private Rigidbody2D _rigidBody;
+	private bool _touchingFloor = true;
 
 	// Use this for initialization
 	void Awake () {
@@ -18,11 +20,26 @@ public class LootLordController : MonoBehaviour {
 
 		_rigidBody.velocity = new Vector2(moveInput * maxSpeed, _rigidBody.velocity.y);
 
+		if (_touchingFloor == true) {
+			if (Input.GetKeyDown ("space")){
+				GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jump), ForceMode2D.Impulse);
+				_touchingFloor = false;
+			}
+		}
+
 		if (moveInput > 0 && !_facingRight) {
 			flip();
 		} else if (moveInput < 0 && _facingRight) {
 			flip();
 		}
+	}
+
+	 void OnCollisionEnter2D(Collision2D col){
+		
+		if (col.gameObject.tag == "Ground") { 
+			_touchingFloor = true;
+		}
+		
 	}
 
 	private void flip() {

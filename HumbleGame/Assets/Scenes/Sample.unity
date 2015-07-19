@@ -167,7 +167,7 @@ GameObject:
   - 61: {fileID: 303763338}
   m_Layer: 0
   m_Name: Quar_Environment_Dirt_Tilex512 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -235,7 +235,7 @@ GameObject:
   - 61: {fileID: 925709303}
   m_Layer: 0
   m_Name: Quar_Environment_Dirt_Tilex512
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -391,6 +391,14 @@ Prefab:
     - target: {fileID: 11457342, guid: c44e0d98eab3d472da636dba75dcd64e, type: 2}
       propertyPath: maxSpeed
       value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 109158, guid: c44e0d98eab3d472da636dba75dcd64e, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 11457342, guid: c44e0d98eab3d472da636dba75dcd64e, type: 2}
+      propertyPath: jump
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c44e0d98eab3d472da636dba75dcd64e, type: 2}

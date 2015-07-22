@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{3DDBC777-2011-4C5F-4998-E8560145EB5E}") = "HumbleGame", "Assembly-CSharp-vs.csproj", "{57A388A3-6838-FE4E-48BA-4F6068E2F742}"
 EndProject
+Project("{3DDBC777-2011-4C5F-4998-E8560145EB5E}") = "HumbleGame", "Assembly-CSharp-Editor-vs.csproj", "{3DA14881-5308-9563-E5D8-C3A619AD892E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{57A388A3-6838-FE4E-48BA-4F6068E2F742}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57A388A3-6838-FE4E-48BA-4F6068E2F742}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57A388A3-6838-FE4E-48BA-4F6068E2F742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA14881-5308-9563-E5D8-C3A619AD892E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA14881-5308-9563-E5D8-C3A619AD892E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA14881-5308-9563-E5D8-C3A619AD892E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA14881-5308-9563-E5D8-C3A619AD892E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-							GlobalSection(MonoDevelopProperties) = preSolution
+											GlobalSection(MonoDevelopProperties) = preSolution
 =======
 						GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> Stashed changes

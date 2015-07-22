@@ -1,23 +1,29 @@
-Base path: /Volumes/Additional/Applications/Unity/Unity.app/Contents
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-2010702592
+Base path: d:/Program Files/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-7696
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=1686 outsize=1133 ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=541 outsize=1893 kw=SHADOWS_DEPTH ok=1
+  api=4 type=0 insize=889 outsize=1534 kw=SHADOWS_DEPTH ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=541 outsize=6 kw=SHADOWS_DEPTH ok=1
+  api=4 type=1 insize=889 outsize=884 kw=SHADOWS_DEPTH ok=1
+Cmd: preprocess
+  insize=3060 outsize=855 ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=3445 outsize=4609 kw=SHADOWS_DEPTH ok=1
+  api=4 type=0 insize=2504 outsize=1209 kw= ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=3445 outsize=6 kw=SHADOWS_DEPTH ok=1
+  api=4 type=1 insize=2504 outsize=989 kw= ok=1
+Cmd: preprocess
+  insize=1382 outsize=479 ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=3054 outsize=4157 kw=SHADOWS_DEPTH ok=1
+  api=4 type=0 insize=1205 outsize=1290 kw=SOFTPARTICLES_OFF ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=3054 outsize=6 kw=SHADOWS_DEPTH ok=1
+  api=4 type=1 insize=1205 outsize=924 kw=SOFTPARTICLES_OFF ok=1
+Cmd: preprocess
+  insize=213 outsize=210 ok=1
+Cmd: preprocess
+  insize=1787 outsize=1231 ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=70500 outsize=10713 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+  api=4 type=0 insize=889 outsize=1534 kw=SHADOWS_DEPTH ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=70500 outsize=6 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=0 type=0 insize=7250 outsize=8528 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=7250 outsize=6 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+  api=4 type=1 insize=889 outsize=884 kw=SHADOWS_DEPTH ok=1

@@ -1,0 +1,209 @@
+
+LootLord.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_armband
+  rotate: true
+  xy: 457, 81
+  size: 40, 47
+  orig: 40, 47
+  offset: 0, 0
+  index: -1
+R_armband
+  rotate: false
+  xy: 263, 83
+  size: 40, 53
+  orig: 40, 53
+  offset: 0, 0
+  index: -1
+abierto der
+  rotate: false
+  xy: 374, 203
+  size: 50, 51
+  orig: 50, 51
+  offset: 0, 0
+  index: -1
+abierto front der
+  rotate: false
+  xy: 155, 83
+  size: 52, 53
+  orig: 52, 53
+  offset: 0, 0
+  index: -1
+abierto front izq
+  rotate: false
+  xy: 209, 83
+  size: 52, 53
+  orig: 52, 53
+  offset: 0, 0
+  index: -1
+abierto izq
+  rotate: false
+  xy: 405, 104
+  size: 50, 51
+  orig: 50, 51
+  offset: 0, 0
+  index: -1
+belt
+  rotate: true
+  xy: 286, 10
+  size: 71, 27
+  orig: 71, 27
+  offset: 0, 0
+  index: -1
+beltpin
+  rotate: false
+  xy: 426, 222
+  size: 37, 32
+  orig: 37, 32
+  offset: 0, 0
+  index: -1
+bicep izq
+  rotate: false
+  xy: 222, 10
+  size: 62, 71
+  orig: 62, 71
+  offset: 0, 0
+  index: -1
+bicep izq #1
+  rotate: false
+  xy: 76, 6
+  size: 60, 74
+  orig: 60, 74
+  offset: 0, 0
+  index: -1
+brazo low izq
+  rotate: true
+  xy: 411, 56
+  size: 46, 41
+  orig: 46, 41
+  offset: 0, 0
+  index: -1
+brazo low izq #1
+  rotate: false
+  xy: 374, 157
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1
+cabeza
+  rotate: true
+  xy: 155, 138
+  size: 116, 108
+  orig: 116, 108
+  offset: 0, 0
+  index: -1
+cerrado der
+  rotate: false
+  xy: 465, 168
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+cerrado front der
+  rotate: true
+  xy: 422, 157
+  size: 44, 41
+  orig: 44, 41
+  offset: 0, 0
+  index: -1
+cerrado front izq
+  rotate: false
+  xy: 465, 213
+  size: 44, 41
+  orig: 44, 41
+  offset: 0, 0
+  index: -1
+cerrado izq
+  rotate: false
+  xy: 465, 123
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+full axe
+  rotate: true
+  xy: 265, 156
+  size: 98, 65
+  orig: 98, 65
+  offset: 0, 0
+  index: -1
+grabbed axe
+  rotate: false
+  xy: 305, 89
+  size: 98, 65
+  orig: 98, 65
+  offset: 0, 0
+  index: -1
+hombro izq
+  rotate: true
+  xy: 2, 6
+  size: 74, 72
+  orig: 74, 72
+  offset: 0, 0
+  index: -1
+hombro izq #1
+  rotate: false
+  xy: 138, 8
+  size: 82, 72
+  orig: 82, 72
+  offset: 0, 0
+  index: -1
+leg1
+  rotate: true
+  xy: 411, 17
+  size: 37, 31
+  orig: 37, 31
+  offset: 0, 0
+  index: -1
+leg2
+  rotate: true
+  xy: 357, 2
+  size: 25, 38
+  orig: 25, 38
+  offset: 0, 0
+  index: -1
+pec der
+  rotate: false
+  xy: 357, 29
+  size: 52, 58
+  orig: 52, 58
+  offset: 0, 0
+  index: -1
+pec izq
+  rotate: true
+  xy: 315, 26
+  size: 61, 40
+  orig: 61, 40
+  offset: 0, 0
+  index: -1
+quilt
+  rotate: true
+  xy: 332, 162
+  size: 92, 40
+  orig: 92, 40
+  offset: 0, 0
+  index: -1
+skull der
+  rotate: true
+  xy: 265, 138
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+skull izq
+  rotate: true
+  xy: 315, 6
+  size: 18, 17
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 2, 82
+  size: 151, 172
+  orig: 151, 172
+  offset: 0, 0
+  index: -1

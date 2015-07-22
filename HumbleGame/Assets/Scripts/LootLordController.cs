@@ -3,47 +3,39 @@ using System.Collections;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class LootLordController : MonoBehaviour {
-	public float maxSpeed = 10f;
+	[Range(0.1f, 10f)]
+	public float maxSpeed = 2f;
+	[Range(0f, 8f)]
 	public float jump = 2f;
-
+	
 	private bool _facingRight = true;
 	private Rigidbody2D _rigidBody;
-	private bool _touchingFloor = true;
+	private bool _touchingFloor = false;
 
 	// Use this for initialization
 	void Awake () {
 		_rigidBody = GetComponent<Rigidbody2D>();
 	}
-
-	void FixedUpdate () {
-<<<<<<< Updated upstream
-		float moveInput = Input.GetAxis("Horizontal");
-
-		_rigidBody.velocity = new Vector2(moveInput * maxSpeed, _rigidBody.velocity.y);
-
-		if (_touchingFloor == true) {
-			if (Input.GetKeyDown ("space")){
-				GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jump), ForceMode2D.Impulse);
-				_touchingFloor = false;
-			}
+	
+	void Update (){
+		if ((_touchingFloor == true) && (Input.GetKeyDown ("space"))) {
+			GetComponent<Rigidbody2D> ().AddForce (new Vector2 (0, jump), ForceMode2D.Impulse);
 		}
-
-		if (moveInput > 0 && !_facingRight) {
-=======
-		float moveInputHorizontal = Input.GetAxis("Horizontal");
-		
-		_rigidBody.velocity = new Vector2(moveInputHorizontal * maxSpeed, Input.GetAxis("Vertical") * maxSpeed);
-		
-		if (moveInputHorizontal > 0 && !_facingRight) {
->>>>>>> Stashed changes
-			flip();
-		} else if (moveInputHorizontal < 0 && _facingRight) {
-			flip();
-		}
-
 	}
-
-	 void OnCollisionEnter2D(Collision2D col){
+	
+	void FixedUpdate () {
+		float moveInput = Input.GetAxis("Horizontal");
+		_rigidBody.velocity = new Vector2(moveInput * maxSpeed, _rigidBody.velocity.y);
+		
+		if (moveInput > 0 && !_facingRight) {
+			flip();
+		} else if (moveInput < 0 && _facingRight) {
+			flip();
+		}
+		
+	}
+	
+	void OnCollisionEnter2D(Collision2D col){
 		
 		if (col.gameObject.tag == "Ground") { 
 			_touchingFloor = true;
@@ -51,6 +43,15 @@ public class LootLordController : MonoBehaviour {
 		
 	}
 
+	void OnCollisionExit2D(Collision2D col){
+
+		if (col.gameObject.tag == "Ground") { 
+			_touchingFloor = false;
+		}
+		
+	}
+
+	
 	private void flip() {
 		_facingRight = !_facingRight;
 		Vector3 scale = transform.localScale;

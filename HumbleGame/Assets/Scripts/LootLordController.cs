@@ -7,10 +7,12 @@ public class LootLordController : MonoBehaviour {
 	public float maxSpeed = 2f;
 	[Range(0f, 8f)]
 	public float jump = 2f;
-	
-	private bool _facingRight = true;
+	public Transform graphics;
+	public SkeletonAnimation skeleton;
+
 	private Rigidbody2D _rigidBody;
 	private bool _touchingFloor = false;
+	private string currentAnimation = "";
 
 	// Use this for initialization
 	void Awake () {
@@ -27,14 +29,27 @@ public class LootLordController : MonoBehaviour {
 		float moveInput = Input.GetAxis("Horizontal");
 		_rigidBody.velocity = new Vector2(moveInput * maxSpeed, _rigidBody.velocity.y);
 		
-		if (moveInput > 0 && !_facingRight) {
-			flip();
-		} else if (moveInput < 0 && _facingRight) {
-			flip();
+		if (moveInput > 0) {
+			graphics.localRotation = Quaternion.Euler (0, 0, 0);
+			SetAnimation ("walking", true);
+
+		} else if (moveInput < 0) {
+			graphics.localRotation = Quaternion.Euler (0, 180, 0);
+			SetAnimation ("walking", true);
+		} else {
+			SetAnimation("idle",true);
 		}
 		
 	}
-	
+
+	void SetAnimation (string name, bool loop){
+		if (currentAnimation == name)
+			return;
+		skeleton.state.SetAnimation(0,name,loop);
+		currentAnimation = name;
+	}
+
+
 	void OnCollisionEnter2D(Collision2D col){
 		
 		if (col.gameObject.tag == "Ground") { 
@@ -50,12 +65,5 @@ public class LootLordController : MonoBehaviour {
 		}
 		
 	}
-
 	
-	private void flip() {
-		_facingRight = !_facingRight;
-		Vector3 scale = transform.localScale;
-		scale.x *= -1;
-		transform.localScale = scale;
-	}
 }

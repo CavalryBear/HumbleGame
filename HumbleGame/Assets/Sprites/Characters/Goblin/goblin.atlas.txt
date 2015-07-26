@@ -1,0 +1,125 @@
+
+goblin.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer4
+  rotate: true
+  xy: 296, 38
+  size: 26, 61
+  orig: 26, 61
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 445, 69
+  size: 51, 57
+  orig: 51, 57
+  offset: 0, 0
+  index: -1
+butcher knife
+  rotate: false
+  xy: 100, 46
+  size: 48, 80
+  orig: 48, 80
+  offset: 0, 0
+  index: -1
+cloak
+  rotate: false
+  xy: 2, 16
+  size: 96, 110
+  orig: 96, 110
+  offset: 0, 0
+  index: -1
+hand_close
+  rotate: false
+  xy: 234, 18
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+hand_open
+  rotate: false
+  xy: 211, 10
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+left arm
+  rotate: true
+  xy: 168, 2
+  size: 29, 41
+  orig: 29, 41
+  offset: 0, 0
+  index: -1
+leg
+  rotate: true
+  xy: 402, 43
+  size: 21, 31
+  orig: 21, 31
+  offset: 0, 0
+  index: -1
+mask1
+  rotate: false
+  xy: 150, 66
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+mask2
+  rotate: false
+  xy: 209, 66
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+mask3
+  rotate: false
+  xy: 268, 66
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+mask4
+  rotate: false
+  xy: 327, 66
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+mask5
+  rotate: false
+  xy: 386, 66
+  size: 57, 60
+  orig: 57, 60
+  offset: 0, 0
+  index: -1
+right arm
+  rotate: false
+  xy: 359, 40
+  size: 41, 24
+  orig: 41, 24
+  offset: 0, 0
+  index: -1
+rusty knife
+  rotate: true
+  xy: 228, 36
+  size: 28, 66
+  orig: 28, 66
+  offset: 0, 0
+  index: -1
+sai
+  rotate: true
+  xy: 100, 2
+  size: 29, 66
+  orig: 29, 66
+  offset: 0, 0
+  index: -1
+wooden sword
+  rotate: true
+  xy: 150, 33
+  size: 31, 76
+  orig: 31, 76
+  offset: 0, 0
+  index: -1

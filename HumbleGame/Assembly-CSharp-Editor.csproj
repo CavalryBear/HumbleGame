@@ -64,6 +64,7 @@
      <Compile Include="Assets\spine-unity\SkeletonUtility\Editor\SkeletonUtilitySubmeshRendererInspector.cs" />
      <None Include="Assets\spine-unity\Shaders\HiddenPass.shader" />
      <None Include="Assets\Sprites\Characters\LootLord\LootLord.atlas.txt" />
+     <None Include="Assets\Sprites\Characters\Goblin\goblin.atlas.txt" />
      <None Include="Assets\spine-unity\Shaders\Bones.shader" />
      <None Include="Assets\spine-unity\Ghost\Shaders\SkeletonGhost.shader" />
      <None Include="Assets\spine-unity\Shaders\Skeleton.shader" />

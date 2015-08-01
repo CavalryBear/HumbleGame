@@ -1,0 +1,48 @@
+
+beartrap.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hold
+  rotate: false
+  xy: 2, 2
+  size: 42, 30
+  orig: 42, 30
+  offset: 0, 0
+  index: -1
+left
+  rotate: false
+  xy: 2, 34
+  size: 138, 32
+  orig: 138, 32
+  offset: 0, 0
+  index: -1
+long_slash
+  rotate: false
+  xy: 2, 68
+  size: 165, 171
+  orig: 165, 171
+  offset: 0, 0
+  index: -1
+right
+  rotate: false
+  xy: 298, 207
+  size: 138, 32
+  orig: 138, 32
+  offset: 0, 0
+  index: -1
+short_slash
+  rotate: false
+  xy: 169, 81
+  size: 127, 158
+  orig: 127, 158
+  offset: 0, 0
+  index: -1
+switch
+  rotate: false
+  xy: 169, 71
+  size: 40, 8
+  orig: 40, 8
+  offset: 0, 0
+  index: -1

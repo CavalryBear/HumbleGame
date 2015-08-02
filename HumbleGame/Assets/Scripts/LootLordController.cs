@@ -4,7 +4,7 @@ using System.Collections;
 [RequireComponent(typeof(Rigidbody2D))]
 public class LootLordController : MonoBehaviour {
 	[Range(0.1f, 10f)]
-	public float maxSpeed = 2f;
+	public float maxSpeed = 0.45f;
 	[Range(0f, 8f)]
 	public float jump = 2f;
 	public Transform graphics;

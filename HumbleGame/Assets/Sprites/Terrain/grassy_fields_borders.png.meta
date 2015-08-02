@@ -1,14 +1,27 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: ca6221154a4a049708ac8452cb60659f
-timeCreated: 1438299500
-=======
-guid: 1c6d91bb203a9a347a4a82b57c39297f
-timeCreated: 1438381042
->>>>>>> origin/master
+timeCreated: 1438454246
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: grassy_fields_side
+    21300002: grassy_fields_top
+    21300004: grassy_fields_borders_2
+    21300006: grassy_fields_borders_3
+    21300008: grassy_fields_borders_4
+    21300010: grassy_fields_borders_5
+    21300012: grassy_fields_borders_6
+    21300014: grassy_fields_borders_7
+    21300016: grassy_fields_borders_8
+    21300018: grassy_fields_borders_9
+    21300020: grassy_fields_borders_10
+    21300022: grassy_fields_borders_11
+    21300024: grassy_fields_borders_12
+    21300026: grassy_fields_borders_13
+    21300028: grassy_fields_borders_14
+    21300030: grassy_fields_borders_15
+    21300032: grassy_fields_bottom
+    21300034: grassy_fields_borders_17
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,14 +48,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -53,7 +66,187 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: grassy_fields_side
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 43
+        width: 42
+        height: 527
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_top
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 530
+        width: 600
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_borders_2
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 421
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_borders_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 349
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_borders_4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 344
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_borders_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 348
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_borders_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 357
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_borders_7
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 360
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_borders_8
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 366
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_borders_9
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 340
+        width: 100
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_borders_10
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 350
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_borders_11
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 265
+        width: 97
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_borders_12
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 266
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_borders_13
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 264
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_borders_14
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 260
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_borders_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 182
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_bottom
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 8
+        width: 523
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: grassy_fields_borders_17
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 194
+        width: 411
+        height: 261
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
